@@ -1,0 +1,61 @@
+.promotion {
+  display: flex;
+  padding: 60px 40px;
+  background-color: #d4e9e2;
+}
+
+.promotion-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.promotion-right {
+  flex: 1;
+  padding-left: 40px;
+  border-left: 1px solid #a0c8b9;
+}
+
+.promotion h3 {
+  font-size: 14px;
+  color: #006241;
+  margin-bottom: 10px;
+}
+
+.promotion h2 {
+  font-size: 24px;
+  color: #2d2d2d;
+  margin-bottom: 15px;
+}
+
+.promotion h1 {
+  font-size: 36px;
+  color: #006241;
+  margin-bottom: 15px;
+}
+
+.promotion p {
+  font-size: 16px;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.promotion button {
+  background-color: #006241;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.promotion button:hover {
+  opacity: 0.9;
+}
